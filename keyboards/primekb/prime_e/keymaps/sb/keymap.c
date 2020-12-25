@@ -22,6 +22,11 @@ enum layers {
     NSL,
 };
 
+// LED pins
+#define TOP_LED B1
+#define MIDDLE_LED B2
+#define BOTTOM_LED B3
+
 // Layer defines
 #define L_SPC LT(NAVR, KC_SPC)
 #define L_ENT LT(NSSL, KC_ENT)
@@ -68,11 +73,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 void matrix_init_user(void) {
     // Turn on indicator leds  
-    setPinOutput(B1);
-    writePinHigh(B1);
-    setPinOutput(B2);
-    writePinHigh(B2);
-    setPinOutput(B3);
-    writePinHigh(B3);
+ 
+    // Top led
+    setPinOutput(TOP_LED);
+    writePinHigh(TOP_LED);
+
+    // Middle led
+    setPinOutput(MIDDLE_LED);
+    writePinHigh(MIDDLE_LED);
+
+    // Bottom led
+    setPinOutput(BOTTOM_LED);
+    writePinHigh(BOTTOM_LED);
 }
 

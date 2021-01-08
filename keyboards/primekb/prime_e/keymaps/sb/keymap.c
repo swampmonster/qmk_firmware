@@ -49,25 +49,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_GESC,  KC_Q,     KC_W,     KC_E,     KC_R,     KC_T,   KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,     KC_DEL,   KC_BSPC,
         KC_TAB,   MT_LGUI,  MT_LALT,  MT_LCTL,  MT_LSFT,  KC_G,   KC_H,     MT_RSFT,  MT_RCTL,  MT_RALT,  KC_QUOT,  KC_ENT,
         KC_LSFT,  KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,   MO(3),    KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,  KC_LSFT,
-        KC_LCTL,  KC_LALT,  KC_LGUI,  L_SPC,    L_ENT,    L_BSP,  KC_RGUI,  KC_RCTL
+        KC_LCTL,  KC_LALT,  KC_LGUI,  L_SPC,                                                    L_ENT,    L_BSP,    KC_RGUI,  KC_RCTL
     ),
     [NAVR] = LAYOUT(
         RESET,    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_MUTE,  KC_VOLD,  KC_VOLU,
         KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_LEFT,  KC_DOWN,  KC_UP,    KC_RGHT,  KC_SCLN,  KC_BSLS,
         KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_HOME,  KC_PGDN,  KC_PGUP,  KC_END,   KC_TRNS,  KC_TRNS,  KC_TRNS,
-        KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
+        KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,                                                    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
     ),
     [NSL] = LAYOUT(
-        KC_TRNS,  KC_LBRC,  KC_7,  KC_8,     KC_9,     KC_RBRC,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
-        KC_TRNS,  KC_SCLN,  KC_4,  KC_5,     KC_6,     KC_EQL,   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
-        KC_TRNS,  KC_TRNS,  KC_1,  KC_2,     KC_3,     KC_BSLS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
-        KC_TRNS,  KC_TRNS,  KC_0,  KC_MINS,  KC_PENT,  KC_PDOT,  KC_TRNS,  KC_TRNS
+        KC_TRNS,  KC_1,     KC_2,  KC_3,  KC_4,  KC_5,     KC_6,     KC_7,     KC_8,     KC_9,     KC_0,     KC_EQL,   KC_TRNS,
+        KC_TRNS,  KC_SCLN,  KC_4,  KC_5,  KC_6,  KC_EQL,   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
+        KC_TRNS,  KC_TRNS,  KC_1,  KC_2,  KC_3,  KC_BSLS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
+        KC_TRNS,  KC_TRNS,  KC_0,  KC_MINS,                                                        KC_PENT,  KC_PDOT,  KC_TRNS,  KC_TRNS
     ),
     [NSSL] = LAYOUT(
-        KC_LPRN,  KC_LCBR,  KC_AMPR,  KC_ASTR,  KC_RPRN,  KC_RCBR,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
+        KC_TRNS,  KC_EXLM,  KC_AT,    KC_HASH,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_AMPR,  KC_ASTR,  KC_LPRN,  KC_RPRN,  KC_TRNS,  KC_TRNS,
         KC_TRNS,  KC_COLN,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_PLUS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
         KC_TRNS,  KC_TILD,  KC_EXLM,  KC_AT,    KC_HASH,  KC_PIPE,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,
-        KC_TRNS,  KC_LPRN,  KC_RPRN,  KC_UNDS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
+        KC_TRNS,  KC_LPRN,  KC_RPRN,  KC_UNDS,                                                    KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
     )
 };
 
